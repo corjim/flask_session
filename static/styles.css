@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: #9f9e9e;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+main {
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+header {
+    background: rgb(52, 142, 220)
+}
+
+footer {
+    background: rgb(52, 142, 220);
+}

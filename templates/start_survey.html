@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title%} {{ title }}{% endblock %}
+
+{% block content %}
+
+<h3>{{title}}</h3>
+<h5>{{givenInstr}}</h5>
+
+<form action="/start" method="POST">
+    <input type="hidden" name="start_question">
+    <button>start survey</button>
+</form>
+
+{% endblock %}
